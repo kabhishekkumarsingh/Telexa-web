@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/Home';
 import ProductPage from './pages/Product';
-import ProductDetails from './pages/ProductDetails';
 import DownloadPage from './pages/Downloads';
 import SupportPage from './pages/Support';
 import AboutPage from './pages/About';  
@@ -17,7 +16,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/product" element={<ProductPage />} />
-            <Route path="/product/:id" element={<ProductDetails />} /> 
             <Route path="/downloads" element={<DownloadPage />} />
             <Route path="/support" element={<SupportPage />} />
             <Route path="/about" element={<AboutPage />} />
