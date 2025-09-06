@@ -59,47 +59,46 @@ const Downloads = () => {
                 >
                   {/* App Image Carousel */}
                   <div className="relative w-full flex items-center justify-center overflow-hidden">
-  <div className="flex w-full max-w-3xl items-center justify-between">
-    {/* Prev Image */}
-    <img
-      src={app.image[prevIndex]}
-      alt="prev"
-      className="w-1/6 sm:w-1/5 object-contain opacity-50 scale-75 transition-all"
-    />
+                    <div className="flex w-full max-w-3xl items-center justify-between">
+                      {/* Prev Image */}
+                      <img
+                        src={app.image[prevIndex]}
+                        alt="prev"
+                        className="w-1/6 sm:w-1/5 object-contain opacity-50 scale-75 transition-all"
+                      />
 
-    {/* Main Image */}
-    <img
-      src={app.image[currentIndex]}
-      alt={app.name}
-      className="w-2/3 sm:w-2/5 object-contain transition-all"
-      loading="lazy"
-    />
+                      {/* Main Image */}
+                      <img
+                        src={app.image[currentIndex]}
+                        alt={app.name}
+                        className="w-2/3 sm:w-2/5 object-contain transition-all"
+                        loading="lazy"
+                      />
 
-    {/* Next Image */}
-    <img
-      src={app.image[nextIndex]}
-      alt="next"
-      className="w-1/6 sm:w-1/5 object-contain opacity-50 scale-75 transition-all"
-    />
-  </div>
+                      {/* Next Image */}
+                      <img
+                        src={app.image[nextIndex]}
+                        alt="next"
+                        className="w-1/6 sm:w-1/5 object-contain opacity-50 scale-75 transition-all"
+                      />
+                    </div>
 
-  {/* Left Button */}
-  <button
-    onClick={() => handleLeft(app.id, imagesLength)}
-    className="absolute left-2 top-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-80"
-  >
-    ‹
-  </button>
+                    {/* Left Button */}
+                    <button
+                      onClick={() => handleLeft(app.id, imagesLength)}
+                      className="absolute left-2 top-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-80"
+                    >
+                      ‹
+                    </button>
 
-  {/* Right Button */}
-  <button
-    onClick={() => handleRight(app.id, imagesLength)}
-    className="absolute right-2 top-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-80"
-  >
-    ›
-  </button>
-</div>
-
+                    {/* Right Button */}
+                    <button
+                      onClick={() => handleRight(app.id, imagesLength)}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-80"
+                    >
+                      ›
+                    </button>
+                  </div>
 
                   {/* App Content */}
                   <div className="p-6 sm:p-8 flex flex-col flex-grow">

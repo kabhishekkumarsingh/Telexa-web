@@ -148,7 +148,7 @@ const ProductDetail = ({ product, onBackClick }) => {
                     disabled={!product.inStock}
                     className={`flex-1 px-6 py-4 font-semibold rounded-lg transition-colors flex items-center justify-center ${
                       product.inStock
-                        ? 'bg-orange-500 text-white hover:bg-orange-600'
+                        ? 'bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200'
                         : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     }`}
                   >

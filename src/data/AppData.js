@@ -7,7 +7,7 @@ const apps = [
     color: "blue",
     image: [
       "/assets/app-photo/Telexa_Auto1.jpeg",
-      "/assets/app-photo/telexaAuto1.jpeg",
+      "/assets/app-photo/TelexaAuto1.jpeg",
       "/assets/app-photo/telexaAuto1.jpeg",
     ],
   },
@@ -18,9 +18,9 @@ const apps = [
       "Real time plant monitoring. Display information filter plant wise. Display information filter date wise. It will also display total vehicle of a plant.",
     color: "green",
     image: [
-      "/assets/app-photo/telexa_Vision1.webp",
-      "/assets/app-photo/telexa_Vision2.webp",
-      "/assets/app-photo/telexa_Vision3.webp",
+      "/assets/app-photo/Telexa_Vision1.webp",
+      "/assets/app-photo/Telexa_Vision2.webp",
+      "/assets/app-photo/Telexa_Vision3.webp",
     ],
   },
 ];
